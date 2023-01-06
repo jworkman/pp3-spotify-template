@@ -42,6 +42,13 @@ After yarn has finished installing all of your `node_modules` you can now run th
 
 	yarn watch
 
+Some paragraph text
+
+```
+div.body {
+  display: grid;
+}
+```
 
 # Links
 
