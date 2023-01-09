@@ -7,7 +7,8 @@ const spotify = require('./middlewares/spotify')
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
 
-// This is a comment that closes a ticket
+// This is a comment that references a ticket
+// This is a new comment that closes a ticket
 app.use('/spotify/v1', spotify)
 
 app.listen(3001)
